@@ -341,57 +341,9 @@ export const UserFormValidation = z.object({
 });
 ```
 
-### Reusing Components
-
-- **CustomFormField:** Use for any form field with validation and custom UI.
-- **FileUploader:** Use for uploading files in any form.
-- **StatusBadge:** Display status for appointments, patients, etc.
-
-### API Usage
-
-```typescript
-// lib/appwrite.config.ts
-const client = new sdk.Client();
-client.setEndpoint(ENDPOINT!).setProject(NEXT_PUBLIC_PROJECT_ID!).setKey(NEXT_PUBLIC_API_KEY!);
-export const databases = new sdk.Databases(client);
-export const users = new sdk.Users(client);
-export const messaging = new sdk.Messaging(client);
-export const storage = new sdk.Storage(client);
-```
-
----
-
-## Troubleshooting & Resources
-
-- **Node.js Installation:** [Download Node.js](https://nodejs.org/en/)
-- **Appwrite Docs:** [Appwrite Documentation](https://appwrite.io/docs)
-- **Twilio Docs:** [Twilio Messaging](https://appwrite.io/docs/products/messaging/twilio)
-- **Sentry Docs:** [Sentry Monitoring](https://sentry.io/welcome/)
-- **YouTube Tutorial:** [HealthCare App with Next.js & Appwrite](https://www.youtube.com/watch?v=lEflo_sc82g)
-- **CORS Issues with Appwrite:** [Solving CORS Errors](https://www.youtube.com/watch?v=oEpRh9H5l5g)
-
----
 
 ## Keywords
 
 Next.js, HealthCare, Patient Management, Appointment, Twilio, Appwrite, Sentry, TypeScript, TailwindCSS, Shadcn-UI, Zod, Admin Dashboard, File Upload, Responsive Design, SMS Notification, Medical App, Full Stack, Clinic, Hospital, Database, Form Validation, React
 
----
 
-## Conclusion
-
-This project is designed for rapid development and deployment of healthcare management solutions. Its modular structure, reusable components, and integration with modern cloud services make it ideal for clinics, hospitals, and developers looking to build scalable medical applications.
-
----
-
-## Happy Coding! 🎉
-
-Feel free to use this project repository and extend this project further!
-
-If you have any questions or want to share your work, reach out via GitHub or my portfolio at [https://arnob-mahmud.vercel.app/](https://arnob-mahmud.vercel.app/).
-
-**Enjoy building and learning!** 🚀
-
-Thank you! 😊
-
----
